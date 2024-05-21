@@ -1,5 +1,7 @@
 import React from "react";
 import Estate from "../assets/Estate.png";
+import CV from "../assets/Portfolio.png";
+import Task from "../assets/Task.png";
 import { Link } from "react-scroll";
 
 const Portfolio = () => {
@@ -7,14 +9,20 @@ const Portfolio = () => {
     {
       id: 1,
       src: Estate,
+      href: "https://real-estate-q115.onrender.com",
+      code: "https://github.com/Hiren2550/Real-Estate",
     },
     {
       id: 2,
-      src: Estate,
+      src: Task,
+      href: "https://task-manager-trch.onrender.com",
+      code: "https://github.com/Hiren2550/Learn_NextJS",
     },
     {
       id: 3,
-      src: Estate,
+      src: CV,
+      href: "https://hiren-portfolio.onrender.com",
+      code: "https://github.com/Hiren2550/Hiren-Portfolio",
     },
   ];
   return (
@@ -30,30 +38,23 @@ const Portfolio = () => {
           <p className="py-5">Check out some of my work right here </p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 px-8 sm:px-0 gap-8">
-          {work.map(({ id, src }) => (
+          {work.map(({ id, src, href, code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt=""
                 className="rounded-md hover:scale-105 duration-200"
+                height={1000}
               />
 
               <div className="flex items-center justify-center">
-                <a
-                  href="https://real-estate-q115.onrender.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href={href} target="_blank" rel="noopener noreferrer">
                   <button className="py-3 px-6 hover:scale-105 w-1/2 m-3">
                     Demo
                   </button>
                 </a>
 
-                <a
-                  href="https://github.com/Hiren2550/Real-Estate"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href={code} target="_blank" rel="noopener noreferrer">
                   <button className="py-3 px-6 hover:scale-105 w-1/2 m-3">
                     Code
                   </button>

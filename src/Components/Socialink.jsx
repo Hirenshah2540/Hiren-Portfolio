@@ -45,7 +45,7 @@ const Socialink = () => {
           <BsFillPersonLinesFill size={30} className="text-gray-800" />
         </>
       ),
-      href: "/resume.pdf",
+      href: "/Hiren.pdf",
       style: "rounded-br-md",
       download: true,
     },

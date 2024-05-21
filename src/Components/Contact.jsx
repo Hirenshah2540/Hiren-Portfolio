@@ -25,6 +25,7 @@ const Contact = () => {
             <input
               type="text"
               name="name"
+              autoComplete="off"
               placeholder="Enter your name"
               className="p-2 rounded-md bg-transparent border-2 focus:outline-none text-white"
               required
@@ -32,6 +33,7 @@ const Contact = () => {
             <input
               type="text"
               name="email"
+              autoComplete="off"
               placeholder="Enter your email"
               className="p-2 rounded-md bg-transparent border-2 focus:outline-none text-white "
               required
