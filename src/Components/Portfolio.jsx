@@ -20,9 +20,9 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: CV,
-      href: "https://hiren-portfolio.onrender.com",
-      code: "https://github.com/Hiren2550/Hiren-Portfolio",
+      src: Movie,
+      href: "https://movie-mo5y.onrender.com",
+      code: "https://github.com/Hiren2550/Movie",
     },
   ];
   return (
