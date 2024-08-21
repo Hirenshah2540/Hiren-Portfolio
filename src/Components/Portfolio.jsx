@@ -14,15 +14,15 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: Task,
-      href: "https://task-manager-trch.onrender.com",
-      code: "https://github.com/Hiren2550/Learn_NextJS",
-    },
-    {
-      id: 3,
       src: Movie,
       href: "https://movie-mo5y.onrender.com",
       code: "https://github.com/Hiren2550/Movie",
+    },
+    {
+      id: 3,
+      src: Task,
+      href: "https://task-manager-trch.onrender.com",
+      code: "https://github.com/Hiren2550/Learn_NextJS",
     },
   ];
   return (
