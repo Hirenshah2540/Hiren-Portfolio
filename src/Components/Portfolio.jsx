@@ -1,8 +1,7 @@
 import React from "react";
 import Estate from "../assets/Estate.png";
-import CV from "../assets/Portfolio.png";
+import Movie from "../assets/Movie.jpg";
 import Task from "../assets/Task.png";
-import { Link } from "react-scroll";
 
 const Portfolio = () => {
   const work = [
