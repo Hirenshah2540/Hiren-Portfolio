@@ -2,6 +2,7 @@ import React from "react";
 import Estate from "../assets/Estate.png";
 import Movie from "../assets/Movie.jpg";
 import Task from "../assets/Task.png";
+import Ecommerce from "../assets/Ecommerce.png";
 
 const Portfolio = () => {
   const work = [
@@ -19,9 +20,9 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: Task,
-      href: "https://task-manager-trch.onrender.com",
-      code: "https://github.com/Hiren2550/Learn_NextJS",
+      src: Ecommerce,
+      href: " https://e-commerce-15i5.onrender.com",
+      code: "https://github.com/Hiren2550/E-commerce",
     },
   ];
   return (
