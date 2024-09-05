@@ -6,6 +6,8 @@ import react from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
 import nodejs from "../assets/nodejs.png";
 import mongodb from "../assets/mongodb.png";
+import redux from "../assets/redux.png";
+import typescript from "../assets/typescript.png";
 
 const Experience = () => {
   const Tech = [
@@ -45,6 +47,24 @@ const Experience = () => {
       src: nodejs,
       title: "NodeJS",
       style: "shadow-green-800",
+    },
+    {
+      id: 7,
+      src: mongodb,
+      title: "MongoDB",
+      style: "shadow-green-400",
+    },
+    {
+      id: 8,
+      src: redux,
+      title: "Redux",
+      style: "shadow-purple-600",
+    },
+    {
+      id: 9,
+      src: typescript,
+      title: "TypeScript",
+      style: "shadow-blue-400",
     },
   ];
   return (
